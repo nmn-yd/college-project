@@ -1,0 +1,2689 @@
+*{
+   
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  
+    font-family: par;
+
+}
+
+
+@font-face {
+    font-family:par ;
+    src: url(images/Cyberpunk/OriginTech\ personal\ use.ttf);
+   
+}
+
+body{
+
+ background-color: black;
+}
+
+
+.header1{
+width: 100%;
+height: 110px;
+display: block;
+background-color: black;
+position: relative;
+}
+
+
+
+
+.name{
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 2% ;
+    padding-top: 1.5%;
+    width: 290px;
+    height: 65px;
+    background-color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(182, 208, 230);
+    border-radius: 10px;
+}
+
+.name h1{
+    font-weight: 120;
+    font-size: 40px;
+    color: rgb(182, 208, 230);
+    font-family:par ;
+    text-align: center;
+}
+
+
+
+.header1content{
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 3%;
+    width: 850px;
+    height: 70px;
+    background-color: black;
+    text-align: center;
+    font-family:par ;
+    padding-top: 1.5%;
+    font-size: 140%;
+    font-weight: 400;
+   
+}
+
+.header1content a{
+    margin-left: 2%;
+    color: rgb(182, 208, 230);
+    text-decoration: none;
+}
+
+
+
+.dropdown {
+    display: inline-block;
+    position: relative ;
+    margin-left: 2%;
+    
+    
+}
+.dropdown-content {
+    position: absolute;
+    background-color: black;
+    min-width: 200px;
+    display: none;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: rgb(182, 208, 230);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: rgb(22, 18, 21);
+}
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+.dropdown:hover .dropbtn {
+    background-color: rgb(192, 14, 14);
+}
+
+
+
+
+
+
+
+.belowheader{
+
+    background-image: url(images/cyber.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:600px;
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.start{
+
+    position: relative;
+    
+    background-image: url(images/wp8379706-hitman-desktop-wallpapers.jpg);
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+
+
+
+.starttext{
+    position: absolute;
+    background-color:black;
+     
+    color: rgb(182, 208, 230);
+    font-family: par;
+   width: 500px;
+    margin-top: 5%;
+    margin-left: 9%;
+   
+}
+
+
+.starttext h1{
+    position: relative;
+    font-size: 290%;
+    
+    padding-left: 3%;
+   
+}
+.search-box{
+    position: relative;
+   margin-top: 3%;
+   padding-left: 2%;
+   font-family: par;
+   color: rgb(182, 208, 230);
+   
+}
+
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+   
+    padding-left: 5%;
+    border-color:rgb(182, 208, 230);
+    border-width: 4px;
+
+}
+
+input[type="text"]
+{
+background-color: rgb(24, 29, 34);
+width: 350px;
+height: 50px;  
+margin-top: 5%; 
+font-family: par;
+padding-left: 5%; 
+color: rgb(182, 208, 230);
+}
+.submit
+{
+background-color: rgb(0, 0, 0);
+margin-top: 3%;
+width: 120px;
+border-color:rgb(182, 208, 230);
+border-width: 4px;
+padding-right: 1%;
+height: 50px;  
+color:rgb(182, 208, 230);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quote{
+    color: rgb(92, 129, 161);
+    font-family: par;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 40%;
+    
+   
+   
+
+    
+   }
+
+.container{
+    margin-left: 5%;
+    margin-right: 6%;
+    margin-top: 1%;
+    padding-right: 5%;
+    
+ 
+}
+
+.image0{
+
+    float: left;
+    width: 600px;
+    height: 450px;
+
+   
+   
+    
+
+}
+
+.hit{
+
+    position: relative;
+
+}
+
+.hit img{
+    
+   
+    
+    width: 100%;
+    height: 90vh;
+  
+}
+
+
+.introduc{
+    position: absolute;
+    top: 0;
+    left: 75;
+     
+    color: rgb(182, 208, 230);
+    font-family: par;
+    margin-left: 50%;
+    margin-top: 5%;
+    padding-right: 4%;
+   
+
+}
+
+.phase2{
+
+    background-image: url(images/wp6481358-gaming-character-wallpapers.jpg);
+
+    background-size: cover;
+    width: 100%;
+    height:600px;
+   
+    background-repeat: no-repeat;
+   
+ 
+    
+}
+
+
+
+.footer{
+     
+    background-color: black;
+    height: 60px;
+    position: relative;
+    padding-top: 1%;
+    
+    
+    
+}
+
+.innerfooter{
+    position: absolute;
+    width: 30%;
+    font-size: larger;
+    text-align: center;
+    padding-top: 1%;
+    height: 30PX;
+   background-color: black;
+    margin-left: 9%;
+    
+   
+    color: rgb(182, 208, 230);
+    font-style: par;
+
+}
+
+.innerfooter a span{
+    float: left;
+    
+}
+
+.innerfooter p{
+    float: right;
+}
+
+.social{
+    width: 20%;
+    background-color: black;
+    height: 40PX;
+    display: block;
+    position: absolute;
+    margin-left: 79%;
+    margin-top: 0.5%;
+   
+   
+    
+}
+
+.icon{
+   
+   margin-left: 7% ;
+   margin-top: 1%;
+}
+
+
+
+/*css for upcoming page*/
+
+
+
+
+.bak{
+
+    margin-top: 3%;
+    background-image: url(images/wp6481348-gaming-character-wallpapers.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:600px;
+    width: 81%;
+    margin-left: 11.5%;
+   
+}
+.upcom{
+   color: rgb(182, 208, 230); ;
+   background-image: url(images/wp7996055-call-of-duty-modern-warfare-computer-wallpapers.png);
+   height:600px;
+    width: 81%;
+    margin-left: 11.5%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.upcom1{
+   color: rgb(182, 208, 230); ;
+   background-image: url(images/wp4813249-halo-infinite-4k-wallpapers.jpg);
+   height:600px;
+    width: 81%;
+    margin-left: 11.5%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.upcom2{
+   color: rgb(182, 208, 230); ;
+   background-image: url(images/wallpaperflare.com_wallpaper\ \(2\).jpg);
+   height:600px;
+    width: 81%;
+    margin-left: 11.5%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.upcominside{
+
+    color: rgb(115, 148, 177); ;
+   
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 1%;
+    text-align: left;
+    padding-top: 2%;
+    background-color: black;
+    
+}
+
+
+
+
+/*css for cracked page*/
+
+
+
+.bak1{
+
+    margin-top: 3%;
+    background-image: url(images/wp10312638-4k-pc-game-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:600px;
+    width: 75%;
+    margin-left: 13%;
+}
+
+
+
+.sal{
+ color: rgb(182, 208, 230); 
+
+ width: 75%;
+    margin-left: 13%;
+height:100px;
+
+margin-top: 5%;
+
+
+}
+
+.sal h1{
+    color: rgb(182, 208, 230); 
+    text-align: center;
+    
+   
+}
+
+.crk{
+  
+    background-image: url(images/wp5456134-watch-dogs-legion-desktop-wallpapers.jpg);
+    height:600px;
+    
+     width: 75%;
+    margin-left: 13%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+}
+
+
+.crkdetail{
+    width: 60%;
+    margin-left: 18%;
+     margin-top: 39.5%;
+     height:120px;
+     padding-top: 3%;
+    position: absolute;
+    background-color: black;
+
+  
+   
+  
+
+}
+
+.crkdetail h1{
+    color: rgb(111, 134, 155); 
+    text-align: center;
+    font-family: par;
+}
+.crkdetail h3{
+    color: rgb(92, 121, 146); 
+    text-align: center;
+    font-family: par;
+    padding-top: 1%;
+}
+
+
+.crk1{
+  
+    background-image: url(images/wp3973775-metro-exodus-2019-wallpapers.png);
+    height:600px;
+    
+    width: 75%;
+   margin-left: 13%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.crk2{
+  
+    background-image: url(images/wp7553466-god-of-war-ragnarok-2021-wallpapers.jpg);
+    height:600px;
+    
+    width: 75%;
+   margin-left: 13%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+
+
+/*css for feedback*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.body1{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: rgb(111, 134, 155); 
+  background-image: url(images/wp6481409-gaming-character-wallpapers.jpg);
+  height:710px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+
+.container{
+  max-width: 700px;
+  width: 100%;
+ margin-left: 7%;
+ background-color: rgb(0, 0, 0);
+
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(221, 88, 88, 0.15);
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.container .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #131414, #2d38d1);
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #9b59b6;
+}
+ form .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+   background: #9b59b6;
+   border-color: #d9d9d9;
+ }
+ form input[type="radio"]{
+   display: none;
+ }
+ form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(135deg, #224b3b, #0d0d0e);
+ }
+ form .button input:hover{
+  /* transform: scale(0.99); */
+  background: linear-gradient(-135deg, #8ec473, #eeedee);
+  }
+ @media(max-width: 584px){
+ .container{
+  max-width: 100%;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category{
+    width: 100%;
+  }
+  .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+  .container .content .category{
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*css for software page*/
+
+.sam{
+
+  margin-top: 3%;
+  background-image: url(images/wp6482028-gaming-character-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:600px;
+  width: 75%;
+  margin-left: 13%;
+}
+
+
+.head1{
+  color: rgb(182, 208, 230); 
+
+  width: 75%;
+     margin-left: 13%;
+ height:100px;
+ 
+ margin-top: 5%;
+}
+
+
+.software{
+  position: relative;
+  background-color:black;
+  height: 400px;
+  width: 75%;
+  margin-left: 13%;
+  padding-left: 5%;
+}
+
+.soft1{
+  position: absolute;
+  color: rgb(182, 208, 230); 
+  font-family: par ;
+  background-image: url(images/DirectX-Image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 110px;
+  width: 25%;
+  text-align: center;
+  margin-top: 1%;
+  
+
+}
+
+.soft1 h2{
+  margin-top: 13%;
+}
+.soft2{
+  position: absolute;
+  color: rgb(182, 208, 230); 
+  font-family: par ;
+  background-image: url(images/download.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  background-color: black;
+  width: 25%;
+ 
+  text-align: center;
+  margin-top: 13%;
+  
+
+}
+
+.soft2 h2{
+  margin-top: 13%;
+}
+.soft3{
+  position: absolute;
+  color: rgb(182, 208, 230); 
+  font-family: par ;
+
+  height: 100px;
+  width: 25%;
+  text-align: center;
+  margin-top: 25%;
+  background-image: url(images/Visual_C_Icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
+}
+
+.soft3 h2{
+  margin-top: 13%;
+}
+
+
+
+
+.soft4{
+  position: absolute;
+  color: rgb(182, 208, 230); 
+  font-family: par ;
+ 
+  height: 100px;
+  width: 25%;
+  text-align: center;
+  margin-top: 1%;
+  margin-left: 60%;
+  background-image: url(images/Visual_C_Icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
+}
+
+.soft4 h2{
+  margin-top: 13%;
+}
+.soft5{
+  position: absolute;
+  color: rgb(182, 208, 230); 
+  font-family: par ;
+ 
+  height: 100px;
+  width: 25%;
+  text-align: center;
+  margin-top: 13%;
+  margin-left: 60%;
+  background-image: url(images/Bokehlicia-Pacifica-Nvidia-settings.ico);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.soft5 h2{
+  margin-top: 13%;
+}
+
+
+
+
+
+.soft6{
+  position: absolute;
+  color: rgb(182, 208, 230); 
+  font-family: par ;
+
+  height: 100px;
+  width: 25%;
+  text-align: center;
+  margin-top: 25%;
+  margin-left: 60%;
+
+  background-image: url(images/dotnet.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+background-color: black;
+
+}
+
+.soft6 h2{
+  margin-top: 13%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*action adn adventure games css */
+
+
+.sam1{
+
+  margin-top: 3%;
+  background-image: url(images/wp6481672-gaming-character-wallpapers.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:500px;
+  width: 85%;
+  margin-left: 9%;
+}
+
+
+
+.maincom{
+
+  height:1500px;
+  width: 85%;
+  margin-left: 9%;
+  background-color: black;
+  
+ position: relative;
+
+  padding-top: 3%;
+}
+
+
+.level1{
+  background-image: url(images/wp7020065-god-of-war-ultra-hd-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+}
+
+
+.innerlevel1{
+  
+  width: 100%;
+ background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(120, 142, 161); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerlevel1 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(119, 141, 160);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(118, 141, 161);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+.level2{
+  background-image: url(images/wp7235892-hitman-3-2021-4k-wallpapers.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 43%;
+}
+
+
+.innerlevel2{
+  
+  width: 100%;
+ background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(132, 156, 177); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerlevel2 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(120, 141, 160);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(121, 143, 161);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+.level3{
+  background-image: url(images/wp6804757-mafia-3-desktop-4k-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 86%;
+}
+
+
+
+.innerlevel3{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(120, 141, 160); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerlevel3 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(120, 141, 158);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(115, 141, 163);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+
+
+
+
+.level4{
+  background-image: url(images/wp9454878-gta-5-michael-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 59.1%;
+}
+
+
+.innerlevel4{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(112, 137, 158); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerlevel4 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(123, 147, 168);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(126, 152, 175);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+.level5{
+  background-image: url(images/wp6228563-valhalla-computer-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%; margin-left: 59.1%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 43%;
+}
+
+
+.innerlevel5{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(113, 140, 163); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerlevel5 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(127, 154, 177);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(111, 135, 156);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+.level6{
+  background-image: url(images/wp6178532-godfall-ps4-wallpapers.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+ margin-left: 59.1%;
+  margin-top: 86%;
+}
+
+
+
+.innerlevel6{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(128, 160, 189); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerlevel6 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color: rgb(99, 120, 138);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(157, 184, 207);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+.cursor{
+width: 85%;
+height: 50px;
+margin-left: 9%;
+
+
+color: rgb(99, 120, 138);
+text-align: center;
+
+
+}
+.prev{
+float: left;
+
+
+}
+
+.nest{
+ float: right;
+  
+}
+
+
+
+
+
+/*css for war page */
+
+
+
+.sam2{
+
+  margin-top: 3%;
+  background-image: url(images/wp5483704-free-thief-game-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:500px;
+  width: 85%;
+  margin-left: 9%;
+}
+
+
+
+
+.maincom{
+
+  height:1500px;
+  width: 85%;
+  margin-left: 9%;
+  background-color: black;
+  
+ position: relative;
+
+  padding-top: 3%;
+}
+
+
+.display1{
+  background-image: url(imaGES/wp9032850-call-of-duty-wwii-desktop-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+}
+
+
+.innerdisplay1{
+  
+  width: 100%;
+ background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(120, 142, 161); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerdisplay1 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(119, 141, 160);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(118, 141, 161);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+.display2{
+  background-image: url(images/wp3343820-sniper-elite-4-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 43%;
+}
+
+
+.innerdisplay2{
+  
+  width: 100%;
+ background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(132, 156, 177); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerdisplay2 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(120, 141, 160);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(121, 143, 161);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+.display3{
+  background-image: url(images/wp9402863-rainbow-six-siege-ash-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 86%;
+}
+
+
+
+.innerdisplay3{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(120, 141, 160); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerdisplay3 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(120, 141, 158);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(115, 141, 163);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+
+
+
+
+.display4{
+  background-image: url(images/wp4400108-wolfenstein-youngblood-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 59.1%;
+}
+
+
+.innerdisplay4{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(112, 137, 158); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerdisplay4 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(123, 147, 168);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(126, 152, 175);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+.display5{
+  background-image: url(images/wp8806663-battlefield-6-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%; margin-left: 59.1%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 43%;
+}
+
+
+.innerdisplay5{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(113, 140, 163); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerdisplay5 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(127, 154, 177);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(111, 135, 156);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+.display6{
+  background-image: url(images/wp10428299-call-of-duty-vanguard-desktop-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+ margin-left: 59.1%;
+  margin-top: 86%;
+}
+
+
+
+.innerdisplay6{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(128, 160, 189); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerdisplay6 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color: rgb(99, 120, 138);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(157, 184, 207);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for puzzle page*/
+
+
+
+
+.sam3{
+
+  margin-top: 3%;
+  background-image: url(images/wp4761206-unravel-puzzle-video-game-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:500px;
+  width: 85%;
+  margin-left: 9%;
+}
+
+
+
+
+.maincom{
+
+  height:1500px;
+  width: 85%;
+  margin-left: 9%;
+  background-color: black;
+  
+ position: relative;
+
+  padding-top: 3%;
+}
+
+
+.block1{
+  background-image: url(imaGES/wp4663642-cardpocalypse-wallpapers.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+}
+
+
+.innerblock1{
+  
+  width: 100%;
+ background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(120, 142, 161); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerblock1 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(119, 141, 160);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(118, 141, 161);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+.block2{
+  background-image: url(images/wp4761178-unravel-puzzle-video-game-wallpapers.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 43%;
+}
+
+
+.innerblock2{
+  
+  width: 100%;
+ background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(132, 156, 177); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerdisplay2 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(120, 141, 160);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(121, 143, 161);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+.block3{
+  background-image: url(images/2032907205_preview_escapefirst3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 86%;
+}
+
+
+
+.innerblock3{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(120, 141, 160); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerblock3 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(120, 141, 158);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(115, 141, 163);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+
+
+
+
+.block4{
+  background-image: url(images/Supraland-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 59.1%;
+}
+
+
+.innerblock4{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(112, 137, 158); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerblock4 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(123, 147, 168);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(126, 152, 175);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+.block5{
+  background-image: url(images/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%; margin-left: 59.1%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 43%;
+}
+
+
+.innerblock5{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(113, 140, 163); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerblock5 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(127, 154, 177);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(111, 135, 156);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+.block6{
+  background-image: url(images/DX-Ball-2-Full-Version-Free-Download-21.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+ margin-left: 59.1%;
+  margin-top: 86%;
+}
+
+
+
+.innerblock6{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(128, 160, 189); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerblock6 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color: rgb(99, 120, 138);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(157, 184, 207);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for puzzle page*/
+
+
+
+
+.sam3{
+
+  margin-top: 3%;
+  background-image: url(images/wp4761206-unravel-puzzle-video-game-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:500px;
+  width: 85%;
+  margin-left: 9%;
+}
+
+
+
+
+.maincom{
+
+  height:1500px;
+  width: 85%;
+  margin-left: 9%;
+  background-color: black;
+  
+ position: relative;
+
+  padding-top: 3%;
+}
+
+
+.block1{
+  background-image: url(imaGES/wp4663642-cardpocalypse-wallpapers.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+}
+
+
+.innerblock1{
+  
+  width: 100%;
+ background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(120, 142, 161); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerblock1 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(119, 141, 160);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(118, 141, 161);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+.block2{
+  background-image: url(images/wp4761178-unravel-puzzle-video-game-wallpapers.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 43%;
+}
+
+
+.innerblock2{
+  
+  width: 100%;
+ background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(132, 156, 177); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerblock2 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(120, 141, 160);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(121, 143, 161);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+.block3{
+  background-image: url(images/2032907205_preview_escapefirst3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 86%;
+}
+
+
+
+.innerblock3{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(120, 141, 160); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerblock3 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(120, 141, 158);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(115, 141, 163);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+
+
+
+
+.block4{
+  background-image: url(images/Supraland-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 59.1%;
+}
+
+
+.innerblock4{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(112, 137, 158); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerblock4 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(123, 147, 168);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(126, 152, 175);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+.block5{
+  background-image: url(images/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%; margin-left: 59.1%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 43%;
+}
+
+
+.innerblock5{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(113, 140, 163); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerblock5 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color:rgb(127, 154, 177);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(111, 135, 156);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+.block6{
+  background-image: url(images/DX-Ball-2-Full-Version-Free-Download-21.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+ margin-left: 59.1%;
+  margin-top: 86%;
+}
+
+
+
+.innerblock6{
+  
+  width: 100%;
+  background-color: black;
+  height:100px ;
+  text-align: center;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(128, 160, 189); 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  
+
+}
+
+
+.innerblock6 button{
+  font-size: large;
+  
+  background-color: rgb(0, 0, 0);
+
+width: 120px;
+border-color: rgb(99, 120, 138);
+border-width: 4px;
+
+height: 50px;  
+color:rgb(157, 184, 207);  
+font-style: bold;
+font-family: par;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for first person shooting*/
+
+
+
+
+
+
+
+
+
+.sam4{
+
+  margin-top: 3%;
+  background-image: url(images/wp5037721-shooting-games-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:500px;
+  width: 85%;
+  margin-left: 9%;
+}
+
+
+
+
+.up1{
+  background-image: url(imaGES/wp3668043-the-last-of-us-ps3-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+}
+
+
+
+
+.up2{
+  background-image: url(images/wp6038564-last-of-us-2-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 43%;
+}
+
+
+
+
+.up3{
+  background-image: url(images/wp4052166-hitman-3-2021-4k-wallpapers.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 86%;
+}
+
+
+
+
+
+.up4{
+  background-image: url(images/wp5075233-far-cry-5-desktop-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 59.1%;
+}
+
+
+
+
+.up5{
+  background-image: url(images/wp8788162-tom-clancys-splinter-cell-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%; margin-left: 59.1%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 43%;
+}
+
+
+
+
+
+.up6{
+  background-image: url(images/wp4174988-tom-clancys-ghost-recon-wildlands-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+ margin-left: 59.1%;
+  margin-top: 86%;
+}
+/* css for first person shooting*/
+
+
+
+
+
+
+
+
+
+.sam5{
+
+  margin-top: 3%;
+  background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:500px;
+  width: 85%;
+  margin-left: 9%;
+}
+
+
+
+
+.down1{
+  background-image: url(imaGES/wp3703176-wwe-2k19-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+}
+
+
+
+
+.down2{
+  background-image: url(images/wp2766159-tekken-7-akuma-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 43%;
+}
+
+
+
+
+.down3{
+  background-image: url(images/wp5478773-street-fighter-v-champion-edition-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 86%;
+}
+
+
+
+
+
+.down4{
+  background-image: url(images/Mega-Man-X-Legacy-Collection-2-Full-Version-Free-Download.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 59.1%;
+}
+
+
+
+
+.down5{
+  background-image: url(images/maxresdefault.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%; margin-left: 59.1%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+
+  margin-top: 43%;
+}
+
+
+
+
+
+.down6{
+  background-image: url(images/metal-slug-main-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 420px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(99, 120, 138);
+  border-radius: 10px;
+  position: absolute;
+ margin-left: 59.1%;
+  margin-top: 86%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
